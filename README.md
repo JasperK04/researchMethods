@@ -27,14 +27,14 @@ Female speakers use emojis at a higher frequency compared to male speakers in En
 
 ## Method
 ### Dataset
-- **Source:** YouTube comments on a diverse range of videos (categories include lifestyle, technology, entertainment, etc.).
+- **Source:** YouTube comments on a diverse range of videos.
 - **Collection Method:** Use of YouTube Data API to gather publicly available comments from videos with high engagement rates.
 
 ### Sampling Method
 - Stratified sampling to ensure gender diversity in the dataset.
-- Manual or semi-automated labeling of user accounts by gender based on usernames, profile information, or additional context.
+- Labeling of user accounts by gender based on usernames, profile information, or additional context. (the hard part)
 
-### Analysis
+### Possible Analysis
 - Perform text mining to identify and count emoji usage.
 - Compare average emoji frequency across male and female speakers using statistical tests.
 
